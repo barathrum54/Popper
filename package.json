@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build --target lib --inline-vue --name Popper src/main.js "
   },
   "dependencies": {
+    "@vue/compiler-sfc": "^3.2.45",
     "core-js": "^3.8.3",
     "vue": "^3.2.13"
   },
